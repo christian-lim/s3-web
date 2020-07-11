@@ -1,0 +1,31 @@
+.container-command {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-month{
+    height: 300px;
+    width: 300px;
+    border-radius: 35%;
+    display: flex;
+    justify-content: center; /* align horizontally */
+    align-items: center; /* align vertically */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+    flex: 1 0 350px;
+}
+
+.label-month {
+    font-size: 20px;
+    margin-top: -20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.label-project {
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,76 @@
+html, body {
+    min-height: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    margin-top:-10px;
+    padding: 0;
+    font-family: Fauna One;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: PlayFair Display;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: -15px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Fauna One;
+    font-size: 16px;
+    color: #00000090;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+hr {
+    width: auto;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+.fab, .fas {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.greeting {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.resume-logo {
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.social-media-logos {
+    position: absolute;
+    right: 20px;
+    top: 2px;
+}
+
+
+.footer-contact-info {
+    font-size: 18px;
+}
