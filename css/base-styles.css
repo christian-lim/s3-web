@@ -17,7 +17,8 @@ p {
     -webkit-font-smoothing: antialiased !important;
     -moz-font-smoothing: antialiased !important;
     text-rendering: optimizelegibility !important;
-    letter-spacing: .03em;
+    letter-spacing: .04em;
+    line-height: 1.4;
     text-align: justify;
   }
 
@@ -27,6 +28,12 @@ p {
 
 
 .sub-header {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .05em;
+    line-height: 1.5;
     padding-top: 25px;
     padding-bottom: 2px;
 }
