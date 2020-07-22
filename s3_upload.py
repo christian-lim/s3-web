@@ -14,10 +14,9 @@ s3_client = boto3.client("s3")
 
 def resolve_path(dir_name):
     sub_files = []
-    for path, dirs, files in os.walk(current_dir + dir_name):
+    for __, __, files in os.walk(current_dir + dir_name):
         for file in files:
             sub_files.append(os.path.join("." + dir_name + "/" + file))
-    print("Sub files for {}: {}".format(dir_name, sub_files))
     return sub_files
 
 # Default content-type is octet/stream. Surprised this isn't resolved on AWS's end with the file type.
