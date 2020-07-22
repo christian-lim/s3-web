@@ -20,6 +20,7 @@ def resolve_path(dir_name):
     print("Sub files for {}: {}".format(dir_name, sub_files))
     return sub_files
 
+# Default content-type is octet/stream. Surprised this isn't resolved on AWS's end with the file type.
 def resolve_content_type(file_name):
     prefix = file_name.split("/")[1]
     if (prefix == "css"):
