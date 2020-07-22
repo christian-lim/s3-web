@@ -1,2 +1,4 @@
 # s3-web
-Personal website hosted on S3.
+www.thechristianlim.com
+
+Personal site used to log things I do at work and at home.
