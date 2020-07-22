@@ -6,9 +6,14 @@ html, body {
     padding: 0;
     font-family: Fauna One;
     position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
     text-align: center;
+}
+
+.sub-header {
+    padding-top: 25px;
+    padding-bottom: 2px;
 }
 
 h1 {
@@ -41,10 +46,10 @@ a {
 }
 
 .fab, .fas {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 8px;
 }
 
 .greeting {
@@ -62,13 +67,13 @@ footer {
 .resume-logo {
     position: absolute;
     left: 20px;
-    top: 2px;
+    padding-top: 30px;
 }
 
 .social-media-logos {
     position: absolute;
     right: 20px;
-    top: 2px;
+    padding-top: 20px;
 }
 
 
