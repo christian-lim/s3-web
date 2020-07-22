@@ -27,7 +27,7 @@ def resolve_content_type(file_name):
     elif (prefix == "resources"):
         content_type = "application/pdf"
     else:
-        content_type = "text.html"
+        content_type = "text/html"
     return content_type
 
 def upload_to_s3():
