@@ -8,7 +8,7 @@ css_dir = "/css"
 entries_dir = "/entries"
 resources_dir ="/resources"
 include_files = ["./surface.html", "./error.html"]
-bucket = "thechristianlim.com"
+bucket = "christianlim.me"
 
 s3_client = boto3.client("s3")
 
