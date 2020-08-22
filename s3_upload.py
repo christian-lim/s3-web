@@ -38,10 +38,10 @@ def upload_to_s3():
             object_key = file.strip("./")
             content_type = resolve_content_type(file)
 
-            s3_response = s3_client.upload_file(file, bucket, object_key, ExtraArgs={'ContentType': content_type})
+            s3_client.upload_file(file, bucket, object_key, ExtraArgs={'ContentType': content_type})
             print("Upload for {} successful at {}/{}".format(file, bucket, object_key))
     except ClientError as ex:
-        print("ERROR: Uploading file {} failed.".format(file, ex))
+        print("ERROR: Uploading file {} failed. {}".format(file, ex))
 
 if __name__ == "__main__":
     upload_to_s3()

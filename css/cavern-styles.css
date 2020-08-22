@@ -19,3 +19,18 @@
     margin-bottom: 20px;
     text-align: justify;
 }
+
+.summary {
+    text-align: center;
+}
+
+.done-list {
+    text-align: justify;
+    margin-left: 15px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .04em;
+    line-height: 1.4;
+}

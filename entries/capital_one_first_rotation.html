@@ -11,34 +11,63 @@
         <link href="../css/cavern-styles.css" rel="stylesheet">
         <link href="../css/surface-styles.css" rel="stylesheet">
         <link href="../img/submarine.png" rel="icon">
+
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<div class="header">
-        <div class="resume-logo">
-                <a href="../resources/resume.pdf" target="_blank" class="fa fa-id-card fa-2x"></a>
-                <span> <-- Resume </span>
-        </div>
-        <div class="social-media-logos">
-                <a href="https://www.linkedin.com/in/christian-lim-429480aa/" target="_blank" class="fab fa-linkedin fa-2x"></a>
-                <a href="mailto:christianlim.js@gmail.com" target="_blank" class="fas fa-envelope fa-2x"></a>
-                <a href="https://github.com/christian-lim" target="_blank" class="fab fa-github fa-2x"></a>
-        </div>          
-</div> 
-<div class="sub-header">
-        <h2>
-                <div>Capital One, Rotation One </div> 
-                <div>Tech Stack: Java(11) Spring, React.js, AWS.</div>
-                <div>Mission: Building distributed applications to support protecting our entire Data lake.</div>
-        </h2>
-        <hr>
-</div>
 <body>
-        <p>
-                This position involved me working with applications to protect our entire data lake. These applications process terabytes of files per hour, and notify thousands of data managers to ensure compliance. 
-                I'm going to be keeping as up-to-date a list I can on the things I have been doing. I'll try to be descriptive, but you know, trade secrets and all.
-        </p>
+        <!-- Social Media Links -->
+        <div class="header">
+            <div class="social-media-logos">
+                    <a href="resources/resume.pdf" target="_blank" class="fa fa-id-card fa-2x" style="padding-right: 7px;"></a>
+                    <a href="https://www.linkedin.com/in/christian-lim-429480aa/" target="_blank" class="fab fa-linkedin fa-2x"></a>
+                    <a href="mailto:christianlim.js@gmail.com" target="_blank" class="fas fa-envelope fa-2x"></a>
+                    <a href="https://github.com/christian-lim" target="_blank" class="fab fa-github fa-2x"></a>
+            </div>
+        </div> 
+        <div class="container">
+                <h3>Capital One, Rotation One </h3>
+                <br>
+                <hr>
+                <div class="summary">
+                        <p>Tech Stack: Java (11) Spring, React.js, AWS</p>
+                        <p>Team: Scantool - securing Capital One's entire data lake</p>
+                        <br>
+                        <p>
+                                My team was tasked with maintaining security within our entire data lake comprising of 20+ petabytes of data. 
+                                This was achieved through scanning files as they landed in the lake, and re-scanning the entire data lake
+                                in set times during the year to maintain governance with constantly evolving policies and standards. 
+                        </p>
+                        <p> At our max, we can scan 1 PB per day. On a more normal basis, we scan roughly 300-400 terabytes a day.</p>
+                        <p>AWS services I got familiar with:  EC2, S3, RDS, SQS, Lambda, IAM, Cloudformation, CloudWatch.</p>
+                        <p>AWS services I used briefly: DynamoDb, SNS.</p>
+                        <p>Other tools I used: Jenkins, Terraform, Ansible, ELK, Docker, Snowflake.</p>
+                </div>
+
+                <br>
+                <h3>Things I've done:</h3>
+                <hr>
+                <br>
+                <ul class="done-list">
+                        <li>Implemented caching solution for operations reaching 5000 TPS, reducing millions of false positive in our scanning.</li>
+                        <li>Implemented caching solution to alleviate RDS replicas during intensive workloads evaluating 40 million objects frequently.</li>
+                        <li>Managed a team of 5 analysts focused on examining our scan results for true and false positives. Reported results to leadership to evaluate value.</li>
+                        <li>Worked with adding custom features supporting our federated infrastructure, managed by toggling profiles. This allowed internal partners to run our tool suite for their own particular needs.</li>
+                        <li>Quantified impacts of features developed through metrics integrated with Datadog.</li>
+                        <li>Delievered 'data managers' that directly scanned hundreds of terabytes of data per day.</li>
+                        <li>Created various REST APIs to fulfill our applications' needs.</li>
+                        <li>Created components in our SPA React.js frontend.</li>
+                        <li>Integrated with Snowflake to enable easy querying of our data.</li>
+                        <li>Used Lambda + CloudWatch to assist with activating a custom graceful shutdown in our autoscaling policies.</li>
+                        <li>Actively contribute to our team's support channels.</li>
+                        <li>Volunteered to host lunch meetings for tech interviewees.    :)</li>
+                </ul>
+                <div>
+
+                </div>
+        </div>
+        <footer>
+                <div class="footer-note">Last updated: August 2020</a></div>
+        </footer>
 </body>
-<hr>
-<footer>
-        <div class="footer-note">Contact Me: christianlim.js@gmail.com!</div>
-</footer>
 </html>

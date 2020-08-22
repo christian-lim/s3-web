@@ -1,15 +1,15 @@
 html, body {
-    min-height: 100%;
-    min-width: 400px;
-    background-color: #ffffff;
+    min-height: 100vh;
+    min-width: 50%;
+    background-color: #020113;
+    color: whitesmoke;
     margin: 0;
-    margin-top:-10px;
     padding: 0;
-    font-family: Fauna One;
+    font-family: 'Courier New', Courier, monospace;
     position: relative;
-    margin-left: 75px;
-    margin-right: 75px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
@@ -20,12 +20,27 @@ p {
     letter-spacing: .04em;
     line-height: 1.4;
     text-align: justify;
+    font-weight: normal;
+    font-style: normal;
   }
 
 .header {
+    position: relative;
+    background-color: whitesmoke;
     padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 30px;
+    vertical-align: middle;
+    overflow: auto;
 }
 
+.social-media-logos {
+    margin: auto;
+    background-color: whitesmoke;
+    vertical-align: middle;
+}
 
 .sub-header {
     -moz-osx-font-smoothing: grayscale;
@@ -34,15 +49,62 @@ p {
     text-rendering: optimizelegibility !important;
     letter-spacing: .05em;
     line-height: 1.5;
-    padding-top: 25px;
+    padding-top: 35px;
     padding-bottom: 2px;
+}
+
+.info-banner {
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    line-height: 1.4;
+}
+
+.container {
+    position: relative;
+    margin: 20px 50px 20px 50px;
+    justify-content: center;
+    height: 100%;
+    vertical-align: middle;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.name-card {
+    position: relative;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .04em;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 48px;
+    vertical-align: middle;
+    height: 50%;
+    flex-grow: 1;
+}
+
+.links {
+    position: relative;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .04em;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    vertical-align: middle;
+    justify-content: center;
 }
 
 h1 {
     text-align: center;
     font-family: PlayFair Display;
     font-size: 40px;
-    color: #000000;
+    color: whitesmoke;
     margin-bottom: -15px;
 }
 
@@ -50,28 +112,36 @@ h2 {
     text-align: center;
     font-family: Fauna One;
     font-size: 16px;
-    color: #00000090;
+    color: whitesmoke;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
+h3 {
+    font-weight: lighter;
+}
+
 hr {
     width: auto;
-    margin: 20px;
+    margin: 10px;
 }
 
 a {
-    text-decoration: none !important;
-    color: #000000 !important;
+    color: whitesmoke;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    line-height: 1.4;
 }
 
-.fab, .fas {
+.fab, .fas, .fa {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
     padding-top: 8px;
+    color: #020113;
 }
 
 .greeting {
@@ -79,26 +149,15 @@ a {
     flex-wrap: wrap;
 }
 
-footer {
-    padding-bottom: 20px;
-    padding-top: 10px;
-    margin: auto;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
     text-align: center;
 }
 
-.resume-logo {
-    position: absolute;
-    left: 20px;
-    padding-top: 30px;
-}
-
-.social-media-logos {
-    position: absolute;
-    right: 20px;
-    padding-top: 20px;
-}
-
-
 .footer-note {
-    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
