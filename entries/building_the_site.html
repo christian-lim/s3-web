@@ -19,7 +19,7 @@
         <!-- Social Media Links -->
         <div class="header">
             <div class="social-media-logos">
-                    <a href="resources/resume.pdf" target="_blank" class="fa fa-id-card fa-2x" style="padding-right: 7px;"></a>
+                    <a href="../resources/resume.pdf" target="_blank" class="fa fa-id-card fa-2x" style="padding-right: 7px;"></a>
                     <a href="https://www.linkedin.com/in/christian-lim-429480aa/" target="_blank" class="fab fa-linkedin fa-2x"></a>
                     <a href="mailto:christianlim.js@gmail.com" target="_blank" class="fas fa-envelope fa-2x"></a>
                     <a href="https://github.com/christian-lim" target="_blank" class="fab fa-github fa-2x"></a>
@@ -40,8 +40,10 @@
                 <p>I wanted to create a personal site back in senior year. I didn't realize the scope of AWS back then, so I had a pretty naive approach of spinning up EC2 instances. I played around a bit, but ended up spending around $20 just for keeping my instance running.
                 Enter my discovery of static web hosting. This service costs 50 cents <em>a month!</em> I placed my html/css from my original Django project, registered a domain and some necessary routing records in Route 53, and voila!
                 The tutorial on setting this up had me manually logging into the S3 console, and dragging and clicking all the files I wanted to host. This is pretty inconvenient for when I shift a font awesome logo 2 pixels to the left for the fourth consecutive time,
-                so I created a utility script to upload my files via a boto3 client in Python. A very important future improvement I need to make is to push a CDN in front of this and add some proper ACLs to my bucket. Why do I need this? As of now, anyone can push any changes 
-                they want if they can deduce the index file (and they'll probably figure out pretty quickly that it isn't "error.html") or any subpaths. Another (large) thing I need to do is properly rework my css to integrate flex boxes, as it's currently terrible on mobile.
+                so I created a utility script to upload my files via a boto3 client in Python. 
+                </p>
+                <p>A very important future improvement I need to make is to push a CDN in front of this and add some proper ACLs to my bucket. As of now, anyone can push any changes 
+                they want if they can deduce the index file or any subpaths. Another (large) thing I need to do is properly rework my css to integrate flex boxes, as it's currently terrible on mobile.
                 </p>
         
                 <p>I originally designed this site around a "personal project a month" theme focused on exploring different facets of development. The buttons in the home page each was supposed to be months, with the topics being whatever I found interesting during that time. I centered my naming conventions accordingly, 
@@ -49,7 +51,6 @@
                 <p>I mean I'm still going to do that, but with way less ridiculous timelines. I'm completely committing to the nautical theme too; I already sourced a submarine flavicon for my website logo, so no turning back now!
                 I'll probably overhaul the design too since the purpose of my site has changed. This place is in dire need of some cards and color.</p>
                 <br>
-                <hr>
         </div>
         <footer>
                 <div class="footer-note">Last updated: August 2020</a></div>

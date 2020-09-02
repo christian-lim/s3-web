@@ -34,3 +34,45 @@
     letter-spacing: .04em;
     line-height: 1.4;
 }
+
+.split-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.split-left {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: justify;
+    max-width: 50%;
+}
+
+.split-right {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: justify;
+    width: 50%;
+
+}
+
+.image {
+    max-width: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.split-done-list {
+    text-align: justify;
+    margin-left: 15px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    letter-spacing: .01em;
+    word-spacing: .01em;
+    line-height: 1.4;
+}
+
